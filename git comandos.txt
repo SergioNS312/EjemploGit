@@ -1,0 +1,34 @@
+git init = comenzar git en el proyecto 
+
+git status -s = verificar archivos:
+"??" no se le hizo commit ni esta preparado para ello.
+"A" esta preparado para hacer commit.
+"M" archivo modificado pero no subido con el comando commit.
+
+git add nombreDelArchivo.TipoDeArchivo = preparar el archivo para el commit.
+
+git commit -m "descripcion de la modificacion" = realizar el commit al repositorio.
+
+git log --oneline = mostrar commits realizados
+
+git reset --hard codigoDelCommit = volver a la version de un commit respectivo.
+
+git add . = preparar todos los archivos del proyecto.
+
+{
+git remote add origin https://github.com/example.git
+
+git branch -M master
+
+git push -u origin master
+} = para clonar el repositorio local(pc) al repositorio remoto(github)
+
+git pull = para clonar el repositorio remoto(github) al repositorio local(pc)
+
+git tag nombre del tag -m "mensaje del tag" = realizar un tag para declarar que la primera version funcional del proyecto de forma local
+
+git push --tags = subir el tag al repositorio remoto
+
+git clone https://github.com/example.git = clonar el proyecto desde github hasta la pc en caso sea borrado
+mediante el link que provee github
+
