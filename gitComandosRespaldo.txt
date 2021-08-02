@@ -34,3 +34,7 @@ git push --tags = subir el tag al repositorio remoto
 git clone https://github.com/example.git = clonar el proyecto desde github hasta la pc en caso sea borrado
 mediante el link que provee github
 
+git branch NombreDeNuevaRama = comando para crear una nueva rama
+
+git branch = comando para ver las ramas del proyecto y en cual estamos
+
