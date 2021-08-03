@@ -38,3 +38,6 @@ git branch NombreDeNuevaRama = comando para crear una nueva rama
 
 git branch = comando para ver las ramas del proyecto y en cual estamos
 
+git checkout NombreDeLaRama = comando para cambiar de rama donde se trabajara
+
+
