@@ -40,4 +40,4 @@ git branch = comando para ver las ramas del proyecto y en cual estamos
 
 git checkout NombreDeLaRama = comando para cambiar de rama donde se trabajara
 
-
+git push --set-upstream origin NombreDeLaRama = subir el commit de una rama respectiva al repositorio remoto
